@@ -1,5 +1,6 @@
 * {
   margin: 0 auto;
+  box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
   background-repeat: no-repeat;
 }
@@ -152,4 +153,28 @@ main i:hover {
 .main-c a {
   text-decoration: none;
   color: black;
+}
+
+@media (max-width: 500px) {
+  body {
+  }
+  #profile {
+    display: none;
+  }
+  .main-p {
+    font-size: 20px;
+  }
+  #projects img {
+    width: 50px;
+    height: 50px;
+  }
+  .main-c {
+    font-size: 24px;
+  }
+  #title {
+    font-size: 40px;
+  }
+  #sub-title {
+    font-size: 15px;
+  }
 }
